@@ -85,7 +85,7 @@ def bfs(initial_urls: List[str]) -> Dict[str, List[str]]:
 def write_dot(graph: Dict[str, List[str]]):
     logging.info(f"writing dot file with {len(graph)} vertices")
     with open("graph.dot", "+w") as f:
-        f.write("diagraph {\n")
+        f.write("digraph {\n")
         for parent, children in graph.items():
             for child in children:
                 f.write(f"{parent} -> {child}\n")
