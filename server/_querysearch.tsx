@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
 const app = express();
-const folderPath = 'path.txt';
+const folderPath = '../data';
 
 async function iterateFolderFiles(folderPath: string) {
   const fileList: string[] = [];
@@ -46,11 +46,3 @@ query_search();
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
 });
-
-
-
-
-
-
-
-
