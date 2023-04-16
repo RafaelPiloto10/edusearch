@@ -21,13 +21,6 @@ async function iterateFolderFiles(folderPath: string) {
   return fileList;
 }
 
-interface Page {
-  content: string,
-  pageRank: number,
-  simRank: number,
-  hitsRank: number,
-}
-
 let contents: string[] = [];
 
 app.use(cors());
