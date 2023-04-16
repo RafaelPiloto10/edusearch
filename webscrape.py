@@ -58,7 +58,7 @@ def bfs(initial_urls: List[str]) -> Dict[str, List[str]]:
 
         with open(path.join(data_folder, f"{file_id}".zfill(4)), "+w") as f:
             f.write(url + "\n")
-            f.writelines(text)
+            f.writelines([t + '\n' for t in text])
             file_id += 1
 
         for anchor in anchors:
