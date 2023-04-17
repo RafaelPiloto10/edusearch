@@ -1,2 +1,152 @@
-https://news.stanford.edu/for-journalists/
-For Journalists | Stanford NewsSkip to contentNewsMenuSearch formSearch termHomeFind StoriesFor JournalistsContactFor JournalistsStanford News offers assistance to print, broadcast, and online media.Subscribe to Stanford News ReleasesCall or email Stanford News to receive Stanford news releases or update your existing subscription.Phone(650) 723-2558 (main)Contact Stanford NewsNews Stories and ReleasesStanford NewsAll the latest news from Stanford University.Press ReleasesStanford News also distributes press releases to journalists via email.Stanford ReportA daily email roundup of news for and about the Stanford community.Media ContactsMedia ContactsConsult our list of media offices at Stanford when covering a story or event that involves the professional schools, the Department of Athletics, Stanford Linear Accelerator Center, or various centers and institutes.PoliciesCommunication policiesUniversity Communications has oversight of policies regarding a variety of media-related topics, including privacy, filming and photography on campus, and use of the university name, seal, and logos.Photos, Videos and BroadcastPhotography and FilmingRequest photographs of Stanford individuals and events, obtain B-roll video, and find information about our broadcast facilities.Archival MaterialsStaff can help you find archived news articles, press releases, and photographs. Request assistance using this form:https://stanford.io/contact_news_archiveAbout StanfordLooking for details about Stanford? Consult these online resources.About StanfordEnrollment StatisticsStanford Fact BookStanford HistoryUniversity GovernanceEvent CalendarA-Z index of websitesStanford ReportTo receive Stanford news daily,subscribe toStanford Report.For JournalistsPress ReleasesMedia ContactsStanford ExpertsSee AlsoContact Stanford NewsFaculty / Staff ResourcesEventsEvents calendarStanford News is a publication ofStanford University CommunicationsStanford HomeMaps & DirectionsSearch StanfordEmergency InfoTerms of UsePrivacyCopyrightTrademarksNon-DiscriminationAccessibility©Stanford University.Stanford,California94305.
+https://hai.stanford.edu/news/counting-cars-new-ai-driven-approach-fine-tunes-road-tolls-reduce-traffic
+Counting Cars: New AI-Driven Approach Fine-Tunes Road Tolls to Reduce Traffic
+Skip to main content
+Skip to secondary navigation
+Stanford University
+(link is external)
+Search this site
+Submit Search
+About
+People
+Values
+Corporate Programs
+Get Involved
+Centers
+Center for Research on Foundation Models
+Center for the Study of Language and Information
+Digital Economy Lab
+RegLab
+Initiatives
+Partners
+Research
+Research Focus Areas
+Fellowship Programs
+Grant Programs
+AI Index 2023
+Research Publications
+Student Affinity Groups
+Education
+Stanford Affiliates
+External Audiences
+Courses
+Policy
+Policy Publications
+National AI Research Resource
+Congressional Boot Camp on AI
+Tech Ethics & Policy Summer Fellowships
+AI Audit Challenge
+News
+Blog
+Announcements
+HAI In the News
+Subscribe to HAI Newsletter
+Events
+Upcoming Events
+Past Events
+Weekly Seminars
+Your browser does not support JavaScript! Please enable JavaScript in order to experience this site.
+Page Content
+Machine Learning
+Counting Cars: New AI-Driven Approach Fine-Tunes Road Tolls to Reduce Traffic
+Congestion pricing schemes to lessen traffic's societal costs could benefit from a simple, practical algorithm that optimizes tolls based on driver behavior.
+Apr 10, 2023
+|
+Adam Hadhazy
+https://twitter.com/StanfordHAI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+https://www.facebook.com/StanfordHAI/
+https://www.youtube.com/channel/UChugFTK0KyrES9terTid8vA
+https://www.linkedin.com/company/stanfordhai
+https://www.instagram.com/stanfordhai/?hl=en
+Image
+Using artificial intelligence, Stanford researchers have devised a new way of optimally setting road tolls to alleviate traffic jams. The researchers' approach involves an intuitive dynamic method to adjust tolls up or down based simply on how many cars are traveling on certain roads at certain times, thus helping balance roadway supply with driver demand.
+Implementing this practical approach could improve congestion pricing, a surcharging system introduced by regulators in numerous cities worldwide that encourages drivers to avoid the busiest roads in crowded downtowns or during rush hour.
+"We have demonstrated a simple, practical, and intuitive method for efficiently optimizing tolls and delivering the benefits of reduced traffic congestion," says
+Devansh Jalota
+, a PhD student in Computational and Mathematical Engineering at Stanford University. Jalota is lead author of a study describing the findings in a paper
+accepted at the
+Artificial Intelligence and Statistics
+(AISTATS)
+conference
+to be held April 25–27.
+The new study is part of a larger research agenda of Jalota and his co-author and adviser
+Marco Pavone
+, the director of the Stanford
+Autonomous Systems Laboratory
+and
+affiliate faculty at the Stanford Institute for Human-Centered Artificial Intelligence (HAI). The agenda is laying the foundations for designing incentive schemes for future mobility systems that improve the efficiency of traffic networks through reduced congestion, while also accounting for societal considerations, such as equity, in the schemes' designs.
+A promising tool in this pursuit is congestion pricing, which is intended to minimize the total traffic congestion costs to society. Not just annoying for the people stuck on them, snarled roads also lead to problems, including lost work productivity, extra carbon emissions, and noise generation.
+Yet coming up with appropriate tolls that efficiently achieve the desired outcome of reducing traffic has proved challenging. A key reason is the unavailability of information about drivers' trip attributes, such as origins and destinations, as well as how much drivers value their time —meaning how much they'd be willing to pay for shorter commutes. Such information is not only inherently infeasible to collect but also poses privacy concerns.
+Jalota and his colleagues took a fresh approach to the quandary. The researchers utilized online learning, a sub-domain of machine learning and AI. Online learning involves observing data as it arrives, so to speak, and updating the actions of prescriptive algorithms based on that continuous flow of data. This strategy of making prescriptive decisions on sequentially arriving data differs from the subsuming of a complete set of data to hone predictive capacities, as is common in many other machine-learning applications.
+The online learning approach developed by Jalota and colleagues involves dynamically adjusting road tolls based on observations of driver behavior. The researchers' key practical insight was that the only data points needed to gauge supply and demand for roadways are the total number of cars on roads at given times. Thankfully, such information is already routinely available in cities via modern sensing technologies such as loop detectors, which are sensors placed in pavement for counting cars and triggering traffic light changes, for instance.
+Through the independently self-interested acts of choosing Road A over Road B, drivers reveal aggregate preferences and thus show where congestion pricing tolls can be increased to incentivize travelers to take alternate routes or other modes of transportation.
+"Our online learning-based approach adjusts tolls at each time period based solely on the observed aggregate flows on the roads of the transportation network without relying on any additional trip attributes of users, thereby preserving user privacy," says Jalota.
+In addition to the practical viability and simplicity of the approach, the research team validated its performance by showing that it compares favorably to an all-knowing "oracle" with complete information on users' trip attributes. Testing the new approach further on real-world traffic networks, the researchers saw that it outperformed even several traditional congestion pricing methods.
+The research follows up on work Jalota and colleagues presented in a
+2021 paper
+focused on ensuring equity of congestion pricing. That study proposed a redistributive approach where lower-income drivers get back more money than they pay out in tolls, while wealthier drivers' compensation is mostly in the form of time not spent in traffic jams.
+As next steps, the researchers aim to further combine the equitable approach to congestion pricing developed in the 2021 paper with the learning-based approach used in the new study. To push this research direction, Jalota and Pavone are co-organizing a
+workshop
+on “Bridging Learning and Algorithmic Fairness in the Design of Urban Infrastructure and Network Systems” at the
+Cyber-Physical Systems and Internet-of-Things Week
+(
+CPS-IoT
+) to be held on May 9, 2023, in San Antonio, Texas.
+With congestion pricing likely coming to more cities — including San Francisco and New York City — new ways of simultaneously boosting the schemes' efficiency and equitability will likely be welcomed.
+"We have developed a simple yet effective online learning-based approach for dynamically adjusting road tolls that is computationally tractable and practically viable," said Jalota. "We think there is real potential here for enhancing congestion pricing."
+Paper co-authors are
+Ramesh Johari
+, Professor of Management Science and Engineering, Computer Science (by courtesy), and Electrical Engineering (by courtesy) at Stanford;
+Karthik Gopalakrishnan
+, a postdoctoral scholar at the Stanford Autonomous Systems Lab; and
+Navid Azizan
+, the Esther and Harold E. Edgerton Career Development Assistant Professor at the Massachusetts Institute of Technology.
+Stanford HAI’s mission is to advance AI research, education, policy and practice to improve the human condition.
+Learn more
+.
+More News Topics
+Machine Learning
+Navigate
+Welcome
+Values
+News
+Events
+Careers
+Participate
+Get Involved
+Grant Programs
+Corporate Programs
+Learn more about giving to HAI
+Contact Us
+Follow us
+https://twitter.com/StanfordHAI
+https://www.facebook.com/StanfordHAI
+https://www.youtube.com/channel/UChugFTK0KyrES9terTid8vA
+https://www.linkedin.com/company/stanfordhai
+https://www.instagram.com/stanfordhai
+Newsletter Sign Up
+Don’t miss out. Get Stanford HAI updates delivered directly to your inbox.
+Subscribe
+Stanford
+University
+Stanford Home
+(link is external)
+Maps & Directions
+(link is external)
+Search Stanford
+(link is external)
+Emergency Info
+(link is external)
+Terms of Use
+(link is external)
+Privacy
+(link is external)
+Copyright
+(link is external)
+Trademarks
+(link is external)
+Non-Discrimination
+(link is external)
+Accessibility
+(link is external)
+© Stanford University.
+Stanford, California 94305.

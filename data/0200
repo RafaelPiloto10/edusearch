@@ -1,2 +1,111 @@
-https://news.stanford.edu/
-Stanford NewsSkip to contentNewsMenuSearch formSearch termHomeFind StoriesFor JournalistsContactStanford NewsTop StoriesScience & TechnologyStudy deepens link between trash, mosquito-borne diseaseWith the risk of mosquito-borne disease expected to grow with climate change, a new study by Stanford researchers and their Kenyan colleagues sheds light on the factors that put communities at risk for these illnesses – including the presence of trash.Science & TechnologyVirtual touchThree years into the Zoom era, roboticist Allison Okamura thinks it’s time for technology that reconnects us with the physical world.MedicinePadded helmet cover shows little protection for football playersResearchers tested a padded helmet cover meant to protect football players from head injury and found that it likely offers little benefit for the majority of hits players sustain.Science & TechnologyResearchers find new molecule that shows promise in slowing SARS-CoV-2A molecule with hooks that can grip and disable the virus’s pesky protease shows potential for fighting infection.MedicineAsthma, eczema associated with higher risk of osteoarthritisThe connection suggests that drugs to treat allergic conditions could one day be used to slow the progression of osteoarthritis.In the SpotlightIn Their Own WordsIn Their Own Words is a series in which Stanford faculty reflect on a question or topic they have been grappling with throughout their careers.In The Spotlight3D printing research at Stanford3D printing offers a world of possibilities, but it has its limitations. Stanford researchers are stretching the boundaries of current printing models and finding innovative ways to solve pressing dilemmas of design, engineering, and medicine.In The SpotlightAt Stanford 2022: The year in reviewA look back on a year that included the opening of the first new school in 75 years, continued efforts to promote diversity, equity, access and inclusion, a Nobel win and Rhodes scholarship, and much more.More StoriesMedicineNew findings on COVID-19 vaccineThe mRNA vaccine is better than natural infection at revving up killer T cells to fight future infection, and better still if you get vaccinated before having had COVID-19.Social SciencesStatement of purposeThe d.school’s Charlotte Burgess-Auburn on the power of a personal manifesto: “If you’re not living life according to your own values, you’re most likely living them according to someone else’s.”Social SciencesAt a Stanford forum, taking a closer look at controversies over curriculumEducation scholars examined recent conflicts over what students are taught in public schools.Science & TechnologyOil-sand wastewater triggered large Alberta earthquakeNew research reveals wastewater injected underground by fossil fuel operators caused a magnitude 5.6 earthquake in November 2022 in the Peace River area of Alberta’s oil sands region. This is the first study to link seismicity in the area to human activity.Science & TechnologyThe overlooked accelerant for Thwaites Glacier ice lossA new study suggests Thwaites Glacier’s main trunk is poised to widen in a way that could speed up ice loss within 20 years.Science & TechnologySLAC’s Sadasivan Shankar on sustainable computingHow can we design computing systems that use less energy while still accomplishing everything we want them to do?MedicineHow to talk to children about mass shootingsStanford Medicine child and adolescent psychologists on helping kids process tragedy.Science & TechnologyStanford researchers expand disease tracking in wastewaterResearchers have developed methods for using wastewater to track the levels of various respiratory viruses in a population. This can provide real-time information about virus circulation in a community.News fromStanford ReportStanford Law SchoolLaw School clinic helps fight hungerStanford ReportLessons fromJulius CaesarStanford ReportConstruction begins on GSE’s new homeStanford ReportStanford joins White House forum on sustainabilityFreeman Spogli Institute for International StudiesFinland’s president and FSI scholars discuss securityIn the NewsNew York TimesGolf at 3 p.m. Thursday? Sure, it’s the afternoon fun economyPBS News HourGovernment takes steps to shore up confidence after collapse of two banks sparks fearsFinancial TimesU.S. regulators protect Silicon Valley Bank depositors and shore up financial systemNew York TimesChildbirth is deadlier for Black families even when they’re rich, expansive study findsNew York TimesChina finds itself with limited options after U.S. shoots down balloonStanford ReportTo receive Stanford news daily,subscribe toStanford Report.For JournalistsPress ReleasesMedia ContactsStanford ExpertsSee AlsoContact Stanford NewsFaculty / Staff ResourcesEventsEvents calendarStanford News is a publication ofStanford University CommunicationsStanford HomeMaps & DirectionsSearch StanfordEmergency InfoTerms of UsePrivacyCopyrightTrademarksNon-DiscriminationAccessibility©Stanford University.Stanford,California94305.
+https://news.stanford.edu/2023/04/12/advances-generalizable-medical-ai/
+Advances in generalizable medical AI | Stanford News
+Skip to content
+News
+Menu
+Search form
+Search term
+Home
+Find Stories
+For Journalists
+Contact
+April 12, 2023
+The promise – and pitfalls – of medical AI headed our way
+Stanford researchers lay out a framework for engineers as they expand and build new medical artificial intelligence models.
+Facebook
+Twitter
+LinkedIn
+Email
+By Corey Binns
+A patient is lying on the operating table as the surgical team reaches an impasse. They can’t find the intestinal rupture. A surgeon asks aloud: “Check whether we missed a view of any intestinal section in the visual feed of the last 15 minutes.” An artificial intelligence medical assistant gets to work reviewing the patient’s past scans and highlighting video streams of the procedure in real time. It alerts the team when they’ve skipped a step in the procedure and reads out relevant medical literature when surgeons encounter a rare anatomical phenomenon.
+Generalist medical AI models could accomplish a wide variety of tasks within and across disciplines – even without having been trained specifically on the assigned tasks.
+(Image credit: iStock/metamorworks)
+Doctors across all disciplines, with assistance from artificial intelligence, may soon have the ability to quickly consult a patient’s entire medical file against the backdrop of all medical health care data and every published piece of medical literature online. This potential versatility in the doctor’s office is only now possible due to the latest generation of AI models.
+“We see a paradigm shift coming in the field of medical AI,” said
+Jure Leskovec
+, professor of computer science at Stanford Engineering. “Previously, medical AI models could only address very small, narrow pieces of the health care puzzle. Now we are entering a new era, where it’s much more about larger pieces of the puzzle in this high stakes field.”
+Stanford researchers and their collaborators describe generalist medical artificial intelligence, or GMAI, as a new class of medical AI models that are knowledgeable, flexible, and reusable across many medical applications and data types. Their perspective on this advance is published in the April 12 issue of
+Nature
+.
+Leskovec and his collaborators chronicle how GMAI will interpret varying combinations of data from imaging, electronic health records, lab results, genomics, and medical text well beyond the abilities of concurrent models like ChatGPT. These GMAI models will provide spoken explanations, offer recommendations, draw sketches, and annotate images.
+“A lot of inefficiencies and errors that happen in medicine today occur because of the hyper-specialization of human doctors and the slow and spotty flow of information,” said co-first author
+Michael Moor
+, an MD and now postdoctoral scholar at Stanford Engineering. “The potential impact of generalist medical AI models could be profound because they wouldn’t be just an expert in their own narrow area, but would have more abilities across specialties.”
+Medicine without borders
+Of the more than 500 AI models for clinical medicine approved by the FDA, most only perform one or two narrow tasks, such as scanning a chest X-ray for signs of pneumonia. But recent advances in foundation model research promise to solve more diverse and challenging tasks. “The exciting and the groundbreaking part is that generalist medical AI models will be able to ingest different types of medical information – for example, imaging studies, lab results, and genomics data – to then perform tasks that we instruct them to do on the fly,” said Leskovec.
+“We expect to see a significant change in the way medical AI will operate,” continued Moor. “Next, we will have devices that, rather than doing just a single task, can do maybe a thousand tasks, some of which were not even anticipated during model development.”
+The authors, which also include Oishi Banerjee and Pranav Rajpurkar from Harvard University, Harlan Krumholz from Yale, Zahra Shakeri Hossein Abad from University of Toronto, and Eric Topol at the Scripps Research Translational Institute, outline how GMAI could tackle a variety of applications from chatbots with patients, to note-taking, all the way to bedside decision support for doctors.
+In the radiology department, the authors propose, models could draft radiology reports that visually point out abnormalities, while taking the patient’s history into account. Radiologists could improve their understanding of cases by chatting with GMAI models: “Can you highlight any new multiple sclerosis lesions that were not present in the previous image?”
+In their paper, the scientists describe additional requirements and capabilities that are needed to develop GMAI into a trustworthy technology. They point out that the model needs to consume all of the personal medical data, as well as historical medical knowledge, and refer to it only when interacting with authorized users. It then needs to be able to hold a conversation with a patient, much like a triage nurse, or doctor to collect new evidence and data or suggest various treatment plans.
+Concerns for future development
+In their research paper, the co-authors address the implications of a model capable of 1,000 medical assignments with the potential to learn even more. “We think the biggest problem for generalist models in medicine is verification. How do we know that the model is correct – and not just making things up?” Leskovec said.
+They point to the flaws already being caught in the ChatGPT language model. Likewise, an AI-generated image of the pope wearing a designer puffy coat is funny. “But if there’s a high-stake scenario and the AI system decides about life and death, verification becomes really important,” said Moor.
+The authors continue that safeguarding privacy is also a necessity. “This is a huge problem because with models like ChatGPT and GPT-4, the online community has already identified ways to jailbreak the current safeguards in place,” Moor said.
+“Deciphering between the data and social biases also poses a grand challenge for GMAI,” Leskovec added. GMAI models need the ability to focus on signals that are causal for a given disease and ignore spurious signals that only tend to correlate with the outcome. Assuming that model size is only going to get bigger, Moor points to early research that shows larger models tend to exhibit more social biases than smaller models. “It is the responsibility of the owners and developers of such models and vendors, especially if they’re deploying them in hospitals, to really make sure that those biases are identified and addressed early on,” said Moor.
+“The current technology is very promising, but there’s still a lot missing,” Leskovec agreed. “The question is: can we identify current missing pieces, like verification of facts, understanding of biases, and explainability/justification of answers so that we give an agenda for the community on how to make progress to fully realize the profound potential of GMAI?”
+Rajpurkar, co-senior author of the paper, is a former computer science PhD student at Stanford School of Engineering, and Banerjee, co-first author, is a former master’s student in computer science at Stanford School of Engineering. Leskovec is also a member of
+Stanford Bio-X
+, a member of the
+Wu Tsai Neurosciences Institute
+, and a faculty affiliate in the
+Institute for Human-Centered Artificial Intelligence
+.
+This research was funded by the National Institutes of Health, the Defense Advanced Research Projects Agency, GSK,
+Wu Tsai Neurosciences Institute
+, the Army Research Office, the National Science Foundation, the
+Stanford Data Science Initiative
+, Amazon, Docomo, Hitachi, Intel, JPMorgan Chase, Juniper Networks, KDDI, NEC, and Toshiba. In the past three years, Krumholz received expenses and/or personal fees from UnitedHealth, Element Science, Eyedentifeye, and F-Prime; is a co-founder of Refactor Health and HugoHealth; and is associated with contracts, through Yale New Haven Hospital, from the Centers for Medicare & Medicaid Services and through Yale University from the Food and Drug Administration, Johnson & Johnson, Google and Pfizer. The other authors declare no competing interests.
+Media Contacts
+Jill Wu, Stanford University School of Engineering: (386) 383-6061;
+jillwu@stanford.edu
+Science & Technology
+Artificial Intelligence
+Health
+Facebook
+Twitter
+LinkedIn
+Email
+What to read next:
+Science & Technology
+New approach estimates long-term coastal cliff loss
+A new method for estimating cliff loss over thousands of years in Del Mar, California, may help reveal some of the long-term drivers of coastal cliff loss in the state.
+Social Sciences
+Ten questions to ask before a romantic merger
+The most important career decision you’ll make is about whom to marry and what kind of relationship you will have, say Myra Strober and Abby Davisson.
+Science & Technology
+Counting cars
+An algorithm that adjusts tolls based on the number of cars traveling on a road at a given time could improve congestion pricing and reduce traffic.
+Stanford Report
+To receive Stanford news daily,
+subscribe to
+Stanford Report
+.
+For Journalists
+Press Releases
+Media Contacts
+Stanford Experts
+See Also
+Contact Stanford News
+Faculty / Staff Resources
+Events
+Events calendar
+Stanford News is a publication of
+Stanford University Communications
+Stanford Home
+Maps & Directions
+Search Stanford
+Emergency Info
+Terms of Use
+Privacy
+Copyright
+Trademarks
+Non-Discrimination
+Accessibility
+©
+Stanford University
+.
+Stanford
+,
+California
+94305
+.
