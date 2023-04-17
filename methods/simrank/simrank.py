@@ -29,6 +29,7 @@ def parse_graph(fname: str):
                     assert line == "digraph {\n"
                 elif i == len(data) - 1:
                     # expect the last line to be the end brace
+                    print("asserting valid end")
                     assert line == "}\n"
                 else:
                     # split by the arrow and assert that there are only two items provided so that format is not lost
