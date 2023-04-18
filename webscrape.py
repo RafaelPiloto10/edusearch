@@ -54,6 +54,8 @@ def bfs(initial_urls: List[str]) -> Dict[str, List[str]]:
 
         soup = BeautifulSoup(html, "html.parser")
         anchors = soup.find_all('a')
+        random.shuffle(anchors)
+        
         text = soup.get_text(strip=True,separator="\n").split("\n")
 
         with open(path.join(data_folder, f"{file_id}".zfill(4)), "+w") as f:
@@ -69,8 +71,12 @@ def bfs(initial_urls: List[str]) -> Dict[str, List[str]]:
 
             regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
             anchor_href = [x[0] for x in re.findall(regex, anchor_href)]
+            random.shuffle(anchor_href)
+            total_links = 0
             for href in list(anchor_href):
                 if href not in seen:
+                    if total_links == 5:
+                        break
                     # manage queue
                     seen.add(href)
                     queue.append(href)
@@ -78,6 +84,7 @@ def bfs(initial_urls: List[str]) -> Dict[str, List[str]]:
                     # add url to graph
                     graph[url] = graph.get(url, [])
                     graph[url].append(href)
+                    total_links += 1
         
     return graph
 

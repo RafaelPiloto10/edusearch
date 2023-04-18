@@ -1,154 +1,128 @@
-https://datascience.stanford.edu/
-Data Science
+https://hai.stanford.edu/news/building-precise-assistive-feeding-robot-can-handle-any-meal
+Building a Precise Assistive-Feeding Robot That Can Handle Any Meal
 Skip to main content
 Skip to secondary navigation
 Stanford University
 (link is external)
-Stanford
-Data Science
 Search this site
 Submit Search
-Menu
 About
-About SDS
-Code of Conduct
-Design Team
-Sponsors
-Letter from the Co-Founders
-Community
-Research Areas
-Research Examples
-Careers
 People
-Leadership
-Faculty
-Senior Advisors
-Research Staff
-Post-Doc Fellows
-PhD Scholars
-Staff
-Alumni
-Programs
-Overview
-Women in Data Science
-Collaboratory
-About
-PhD Scholars
-Program Details
-Scholar Activities
-Data Science Handbook
-Datazine 2020
-Post-Doc Fellows
-COVID-19 Research
-COVID-19 Data Forum
-Data Science for Social Good
-Student Fellows
-Student FAQs
-Technical Mentors
-Technical Mentor FAQ
-2022 Highlights
-2021 Highlights
-2020 Highlights
-2019 Highlights
-Research Centers
-Open Science
-CORES Annual Meeting
-About CORES
-Stanford Open By Design
-Open Science Awards
-Open Educational Resources
-Causal Science
-2022 Conference
-2021 Conference
-Courses
-Events
-Online Causal Inference Seminar
-Health
-Sustainability
-D4SC Conference 2023
-Affiliates
-Corporate Affiliates Program
-Visiting Scholars
-Upcoming Affiliates Events
-Past Affiliates Events
-People
-Research Seed Grants
-2018 Awards Recipients
-Education
-Subscribe >
-Open Science Conference 2023
-Join us on May 12, from 9am-3pm for an in-depth exploration of
-Open Science
-and its
-Intersections with Diversity, Inclusion and Equity.
-Register Now!
-Main content start
-What's Happening
-Call for Abstracts: 2023 SDS Conference
-Announcements
-Enroll Now: Computing for Data Science
-Announcements
-Emmanuel Candès Keynotes NeurIPS 2022
-In the News
-See more
-Upcoming Events
-Apr
-25
-Online Causal Inference Seminar
-Online Causal Inference Seminar
-Tuesday, April 25, 2023 | 8:30am
--
-9:30am PDT
-May
-10
-Conference
-2023 Stanford Data Science Conference
-Wednesday, May 10, 2023
-Mackenzie Room, 300, Huang Engineering Building
-May
-12
-Conference
-Open Science: Intersections with Diversity, Inclusion and Equity
-SDS-Center for Open And Reproducible Science (CORES)
-Friday, May 12, 2023 | 9:00am
--
-3:00pm PDT
-See more events
-Collaborative Efforts
+Values
+Corporate Programs
+Get Involved
+Centers
+Center for Research on Foundation Models
+Center for the Study of Language and Information
+Digital Economy Lab
+RegLab
+Initiatives
+Partners
 Research
-Stanford Data Science is a collaborative effort across many departments in all seven schools. We strive to unite existing data science research initiatives and create interdisciplinary collaborations, connecting the data science and related methodologists with disciplines that are being transformed by data science and computation.
-Explore our research
+Research Focus Areas
+Fellowship Programs
+Grant Programs
+AI Index 2023
+Research Publications
+Student Affinity Groups
 Education
-Stanford Data Science connects departments, schools, and programs from all areas of campus to provide diverse data science educational opportunities at the undergraduate, graduate, and professional levels.
-Learn more about our education
-Community
-Stanford Data Science is helping to weave data science research into the fabric of the university and connect with our peer universities, not-for-profit organizations, and corporate partners.
-Reach our community
-Data Science for All
-Weaving data science research and methods into the University's fabric, giving our faculty and students the tools, skills and understanding they need to do the cutting-edge research that will drive 21st-century scholarship and education.
-Accelerate Research
-Computing for Data Science
-A seminar-style course jointly supported by the Statistics department and Stanford Data Science, and suitable for doctoral students engaged in either research on data science techniques (statistical or computational, for example) or research in scientific fields relying on advanced data science to achieve its goals.
-Course Info
-Women in Data Science
-The Women in Data Science (WiDS) initiative aims to inspire and educate data scientists worldwide, regardless of gender, and to support women in the field. WiDS started as a one-day technical conference at Stanford in November 2015.
-Women in Data Science
-Stanford
-Data Science
-Web Login
-Twitter
-Youtube
+Stanford Affiliates
+External Audiences
+Courses
+Policy
+Policy Publications
+National AI Research Resource
+Congressional Boot Camp on AI
+Tech Ethics & Policy Summer Fellowships
+AI Audit Challenge
 News
-Recent News
+Blog
 Announcements
-In the News
+HAI In the News
+Subscribe to HAI Newsletter
 Events
-Past Events
 Upcoming Events
-Connect
-Embed Code
-Receive announcements, news, and events for
-Stanford Data Science
+Past Events
+Weekly Seminars
+Your browser does not support JavaScript! Please enable JavaScript in order to experience this site.
+Page Content
+Automation and Robotics
+Building a Precise Assistive-Feeding Robot That Can Handle Any Meal
+Stanford researchers improve the skewering, scooping, and bite transfer steps.
+Apr 10, 2023
+|
+Katharine Miller
+https://twitter.com/StanfordHAI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+https://www.facebook.com/StanfordHAI/
+https://www.youtube.com/channel/UChugFTK0KyrES9terTid8vA
+https://www.linkedin.com/company/stanfordhai
+https://www.instagram.com/stanfordhai/?hl=en
+Image
+Eating a meal involves multiple precise movements to bring food from plate to mouth.
+We grasp a fork or spoon to skewer or scoop up a variety of differently shaped and textured food items without breaking them apart or pushing them off our plate. We then carry the food toward us without letting it drop, insert it into our mouths at a comfortable angle, bite it, and gently withdraw the utensil with sufficient force to leave the food behind. And we repeat that series of actions until our plates are clear – three times a day.
+For people with spinal cord injuries or other types of motor impairments, performing this series of movements without assistance can be nigh on impossible, meaning they must rely on caregivers to feed them. This reduces individuals’ autonomy while also contributing to caregiver burnout, says Jennifer Grannen, graduate student in computer science at Stanford University.
+One alternative: robots that can help people with disabilities feed themselves. Although there are already robotic feeding devices on the market, they typically make pre-programmed movements, must be precisely set up for each person and each meal, and bring the food to a position in front of a person’s mouth rather than into it, which can pose problems for people with very limited movement, Grannen says.
+A research team in
+Dorsa Sadigh’s
+ILIAD lab
+, including Grannen and fellow computer science students Priya Sundaresan, Suneel Belkhale, Yilin Wu, and Lorenzo Shaikewitz hopes to make robot-assistive feeding more comfortable for everyone involved. The team has now developed several novel robotic algorithms for autonomously and comfortably accomplishing each step of the feeding process for a variety of food types. One algorithm combines
+computer vision and haptics
+to evaluate the angle and speed at which to insert a fork into a food item; another uses
+a second robotic arm to push food onto a spoon
+; and a third
+delivers food into a person’s mouth
+in a way that feels natural and comfortable.
+“The hope is that by making progress in this domain, people who rely on caregiver assistance can eventually have a more independent lifestyle,” Sundaresan says.
+Visual and Haptic Skewering
+Food items come in a range of shapes and sizes. They also vary in their fragility or robustness. Some (such as tofu) break into pieces when skewered too firmly; others that are harder (such as raw carrots) require a firm skewering motion.
+To successfully pick up diverse items, the team fitted a robot arm with a camera to provide visual feedback and a force sensor to provide haptic feedback. In the training phase, they offered the robot a variety of fare including foods that look the same but have differing levels of fragility (e.g., raw versus cooked butternut squash) and foods that feel soft to the touch but are unexpectedly firm when skewered (e.g., raw broccoli).
+To maximize successful pickups with minimal breakage, the visual system first homes in on a food item and brings the fork in contact with it at an appropriate angle using a method derived from prior research. Next, the fork gently probes the food to determine (using the force sensor) if it is fragile or robust. At the same time, the camera provides visual feedback about how the food responds to the probe. Having made its determination of fragility/robustness using both visual and tactile cues, the robot chooses between – and instantaneously acts on – one of two skewering strategies: a faster more vertical movement for robust items, and a gentler, angled motion for fragile items.
+The work is the first to combine vision and haptics to skewer a variety of foods – and to do so in one continuous interaction, Sundaresan says. In experiments, the system outperformed approaches that don’t use haptics, and also successfully retrieved ambiguous foods like raw broccoli and both raw and cooked butternut squash. “The system relies on vision if the haptics are ambiguous, and haptics if the visuals are ambiguous,” Sundaresan says. Nevertheless, some items evaded the robot’s fork. “Thin items like snow peas or salad leaves are super difficult,” she says.
+She appreciates the way the robot pokes its food just as people do. “Humans also get both visual and tactile feedback and then use that to inform how to insert a fork,” she says. In that sense, this work marks one step toward designing assistive-feeding robots that can behave in ways that feel familiar and comfortable to use.
+Scooping with a Push
+Existing approaches to assistive feeding often require changing utensils to deal with different types of food. “You want a system that can acquire a lot of different foods with a single spoon rather than swapping out what tool you’re using,” Grannen says. But some foods, like peas, roll away from a spoon while others, like jello or tofu, break apart.
+Grannen and her colleagues realized that people know how to solve this problem: They use a second arm holding a fork or other tool to push their peas onto a spoon. So, the team set up a bimanual robot with a spoon in one hand and a curved pusher in the other. And they trained it to pick up a variety of foods.
+As the two utensils move toward each other on either side of a food item, a computer vision system classifies the item as robust or fragile and learns to notice when the item is close to breaking. At that point, the utensils stop moving toward one another and start scooping upward, with the pusher following and rotating toward the spoon to keep the food in place.
+This is the first work to use two robotic arms for food acquisition, Grannen says. She’s also interested in exploring other bimanual feeding tasks such as cutting meat, which involves not only planning how to cut a large piece of food but also how to hold it in place while doing a sawing motion. Soup, too, is an interesting challenge, she says. “How do you keep the spoon from spilling, and how do you tilt the bowl to retrieve the last few drops?”
+Bite Transfer
+Once food is on a fork or spoon, the robot arm needs to deliver it to a person’s mouth in a way that feels natural and comfortable, Belkhale says. Until now, most robots simply brought food to just in front of a person’s mouth, requiring them to lean forward or crane their necks to retrieve the food from the spoon or fork. But that’s a difficult movement for people who are completely immobile from the neck down or for people with other types of mobility challenges, he says.
+To solve that problem, the Stanford team developed an integrated robotic system that brings food all the way into a person’s mouth, stops just after the food enters the mouth, senses when the person takes a bite, and then removes the utensil.
+The system includes a novel piece of hardware that functions like a wrist joint, making the robot’s movements more human-like and comfortable for people, Belkhale says. In addition, it relies on computer vision to detect food on the utensil; to identify key facial features as the food approaches the mouth; and to recognize when the food has gone past the plane of the face and into the mouth.
+The system also uses a force sensor that has been designed to make sure the entire process is comfortable for the person being fed. Initially, as the food comes toward the mouth, the force sensor is very reactive to ensure that the robot arm will stop moving when the utensil contacts a person’s lips or tongue. Next, the sensor registers the person taking a bite, which serves as a signal for the robot to begin withdrawing the utensil, at which point the force sensor needs to be less reactive so that the robot arm will exert sufficient force to leave the food in the mouth as the utensil retreats. “This integrated system can switch between different controllers and different levels of reactivity for each step,” Belkhale says.
+Algorithms combine haptics and computer vision to evaluate how to insert a fork into a person's mouth naturally and comfortably.
+AI-Assistive Feeding
+There’s plenty more work to do before an ideal assistive-feeding robot will be deployed in the wild, the researchers say. For example, robots need to do a better job of picking up what Sundaresan calls “adversarial” food groups, such as very fragile or very thin items. There’s also the challenge of cutting large items into bite-sized pieces, or picking up finger foods. Then there’s the question of what’s the best way for people to communicate with the robot about what food they want next. For example, should the users say what they need next, should the robot learn the human’s preferences and intents over time, or should there be some form of shared autonomy?
+A bigger question: Will all of the food acquisition and bite transfer steps eventually occur together in one system? “Right now, we’re still at the stage where we work on each of these steps independently,” Belkhale says. “But eventually, the goal would be to start fitting them together.”
+Read more:
+In-Mouth Robotic Bite Transfer with Visual and Haptic Sensing
+Learning Bimanual Scooping Policies for Food Acquisition
+Learning Visuo-Haptic Skewering Strategies for Robot-Assisted Feeding
+Stanford HAI’s mission is to advance AI research, education, policy and practice to improve the human condition.
+Learn more
+.
+More News Topics
+Automation and Robotics
+Navigate
+Welcome
+Values
+News
+Events
+Careers
+Participate
+Get Involved
+Grant Programs
+Corporate Programs
+Learn more about giving to HAI
+Contact Us
+Follow us
+https://twitter.com/StanfordHAI
+https://www.facebook.com/StanfordHAI
+https://www.youtube.com/channel/UChugFTK0KyrES9terTid8vA
+https://www.linkedin.com/company/stanfordhai
+https://www.instagram.com/stanfordhai
+Newsletter Sign Up
+Don’t miss out. Get Stanford HAI updates delivered directly to your inbox.
+Subscribe
 Stanford
 University
 Stanford Home
@@ -173,4 +147,3 @@ Accessibility
 (link is external)
 © Stanford University.
 Stanford, California 94305.
-Back to Top

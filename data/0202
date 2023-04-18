@@ -1,152 +1,184 @@
-https://hai.stanford.edu/news/counting-cars-new-ai-driven-approach-fine-tunes-road-tolls-reduce-traffic
-Counting Cars: New AI-Driven Approach Fine-Tunes Road Tolls to Reduce Traffic
+https://fsi.stanford.edu/news/policy-impact-spotlight-marietje-schaake-taming-underregulated-tech
+Policy Impact Spotlight: Marietje Schaake on Taming Underregulated Tech | FSI
 Skip to main content
-Skip to secondary navigation
+Skip to main navigation
 Stanford University
-(link is external)
-Search this site
-Submit Search
-About
-People
-Values
-Corporate Programs
-Get Involved
-Centers
-Center for Research on Foundation Models
-Center for the Study of Language and Information
-Digital Economy Lab
-RegLab
-Initiatives
-Partners
+Menu
+Close
+Search
 Research
-Research Focus Areas
-Fellowship Programs
-Grant Programs
-AI Index 2023
-Research Publications
-Student Affinity Groups
 Education
-Stanford Affiliates
-External Audiences
-Courses
 Policy
-Policy Publications
-National AI Research Resource
-Congressional Boot Camp on AI
-Tech Ethics & Policy Summer Fellowships
-AI Audit Challenge
+People
+Centers
 News
-Blog
-Announcements
-HAI In the News
-Subscribe to HAI Newsletter
 Events
-Upcoming Events
-Past Events
-Weekly Seminars
-Your browser does not support JavaScript! Please enable JavaScript in order to experience this site.
-Page Content
-Machine Learning
-Counting Cars: New AI-Driven Approach Fine-Tunes Road Tolls to Reduce Traffic
-Congestion pricing schemes to lessen traffic's societal costs could benefit from a simple, practical algorithm that optimizes tolls based on driver behavior.
-Apr 10, 2023
-|
-Adam Hadhazy
-https://twitter.com/StanfordHAI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
-https://www.facebook.com/StanfordHAI/
-https://www.youtube.com/channel/UChugFTK0KyrES9terTid8vA
-https://www.linkedin.com/company/stanfordhai
-https://www.instagram.com/stanfordhai/?hl=en
-Image
-Using artificial intelligence, Stanford researchers have devised a new way of optimally setting road tolls to alleviate traffic jams. The researchers' approach involves an intuitive dynamic method to adjust tolls up or down based simply on how many cars are traveling on certain roads at certain times, thus helping balance roadway supply with driver demand.
-Implementing this practical approach could improve congestion pricing, a surcharging system introduced by regulators in numerous cities worldwide that encourages drivers to avoid the busiest roads in crowded downtowns or during rush hour.
-"We have demonstrated a simple, practical, and intuitive method for efficiently optimizing tolls and delivering the benefits of reduced traffic congestion," says
-Devansh Jalota
-, a PhD student in Computational and Mathematical Engineering at Stanford University. Jalota is lead author of a study describing the findings in a paper
-accepted at the
-Artificial Intelligence and Statistics
-(AISTATS)
-conference
-to be held April 25–27.
-The new study is part of a larger research agenda of Jalota and his co-author and adviser
-Marco Pavone
-, the director of the Stanford
-Autonomous Systems Laboratory
-and
-affiliate faculty at the Stanford Institute for Human-Centered Artificial Intelligence (HAI). The agenda is laying the foundations for designing incentive schemes for future mobility systems that improve the efficiency of traffic networks through reduced congestion, while also accounting for societal considerations, such as equity, in the schemes' designs.
-A promising tool in this pursuit is congestion pricing, which is intended to minimize the total traffic congestion costs to society. Not just annoying for the people stuck on them, snarled roads also lead to problems, including lost work productivity, extra carbon emissions, and noise generation.
-Yet coming up with appropriate tolls that efficiently achieve the desired outcome of reducing traffic has proved challenging. A key reason is the unavailability of information about drivers' trip attributes, such as origins and destinations, as well as how much drivers value their time —meaning how much they'd be willing to pay for shorter commutes. Such information is not only inherently infeasible to collect but also poses privacy concerns.
-Jalota and his colleagues took a fresh approach to the quandary. The researchers utilized online learning, a sub-domain of machine learning and AI. Online learning involves observing data as it arrives, so to speak, and updating the actions of prescriptive algorithms based on that continuous flow of data. This strategy of making prescriptive decisions on sequentially arriving data differs from the subsuming of a complete set of data to hone predictive capacities, as is common in many other machine-learning applications.
-The online learning approach developed by Jalota and colleagues involves dynamically adjusting road tolls based on observations of driver behavior. The researchers' key practical insight was that the only data points needed to gauge supply and demand for roadways are the total number of cars on roads at given times. Thankfully, such information is already routinely available in cities via modern sensing technologies such as loop detectors, which are sensors placed in pavement for counting cars and triggering traffic light changes, for instance.
-Through the independently self-interested acts of choosing Road A over Road B, drivers reveal aggregate preferences and thus show where congestion pricing tolls can be increased to incentivize travelers to take alternate routes or other modes of transportation.
-"Our online learning-based approach adjusts tolls at each time period based solely on the observed aggregate flows on the roads of the transportation network without relying on any additional trip attributes of users, thereby preserving user privacy," says Jalota.
-In addition to the practical viability and simplicity of the approach, the research team validated its performance by showing that it compares favorably to an all-knowing "oracle" with complete information on users' trip attributes. Testing the new approach further on real-world traffic networks, the researchers saw that it outperformed even several traditional congestion pricing methods.
-The research follows up on work Jalota and colleagues presented in a
-2021 paper
-focused on ensuring equity of congestion pricing. That study proposed a redistributive approach where lower-income drivers get back more money than they pay out in tolls, while wealthier drivers' compensation is mostly in the form of time not spent in traffic jams.
-As next steps, the researchers aim to further combine the equitable approach to congestion pricing developed in the 2021 paper with the learning-based approach used in the new study. To push this research direction, Jalota and Pavone are co-organizing a
-workshop
-on “Bridging Learning and Algorithmic Fairness in the Design of Urban Infrastructure and Network Systems” at the
-Cyber-Physical Systems and Internet-of-Things Week
-(
-CPS-IoT
-) to be held on May 9, 2023, in San Antonio, Texas.
-With congestion pricing likely coming to more cities — including San Francisco and New York City — new ways of simultaneously boosting the schemes' efficiency and equitability will likely be welcomed.
-"We have developed a simple yet effective online learning-based approach for dynamically adjusting road tolls that is computationally tractable and practically viable," said Jalota. "We think there is real potential here for enhancing congestion pricing."
-Paper co-authors are
-Ramesh Johari
-, Professor of Management Science and Engineering, Computer Science (by courtesy), and Electrical Engineering (by courtesy) at Stanford;
-Karthik Gopalakrishnan
-, a postdoctoral scholar at the Stanford Autonomous Systems Lab; and
-Navid Azizan
-, the Esther and Harold E. Edgerton Career Development Assistant Professor at the Massachusetts Institute of Technology.
-Stanford HAI’s mission is to advance AI research, education, policy and practice to improve the human condition.
-Learn more
+About
+Breadcrumb
+All FSI News
+Blogs
+April 13, 2023
+Policy Impact Spotlight: Marietje Schaake on Taming Underregulated Tech
+A transatlantic background and a decade of experience as a lawmaker in the European Parliament has given Marietje Schaake a unique perspective as a researcher investigating the harms technology is causing to democracy and human rights.
+Melissa Morgan
+Marietje Schaake discusses the misuse of technology and the rise of digital authoritarianism with Youtube CEO Neal Mohan at the 2023 Summit for Democracy co-hosted by President Biden and the governments of Costa Rica, the Netherlands, Republic of Korea, and Republic of Zambia.
+U.S. Department of State
+Picture this: you are sitting in the kitchen of your home enjoying a drink. As you sip, you scroll through your phone, looking at the news of the day. You text a link to a news article critiquing your government’s stance on the press to a friend who works in media. Your sibling sends you a message on an encrypted service updating you on the details of their upcoming travel plans. You set a reminder on your calendar about a doctor’s appointment, then open your banking app to make sure the payment for this month’s rent was processed.
+Everything about this scene is personal. Nothing about it is private.
+Without your knowledge or consent, your phone has been infected with spyware. This technology makes it possible for someone to silently watch and taking careful notes about who you are, who you know, and what you’re doing. They see your files, have your contacts, and know the exact route you took home from work on any given day. They can even turn the microphone of your phone on and listen to the conversations you’re having in the room.
+This is not some hypothetical, Orwellian drama, but a reality for thousands of people around the world. This kind of technology — once a capability only of the most technologically advanced governments — is now commercially available and for sale from numerous private companies who are known to sell it to state agencies and private actors alike. This total loss of privacy should worry everyone, but for human rights activists and journalists challenging authoritarian powers, it has become a matter of life and death.
+The companies who develop and sell this technology are only passively accountable toward governments at best, and at worse have their tacit support. And it is this lack of regulation that
+Marietje Schaake
+, the International Policy Director at the
+Cyber Policy Center
+and International Policy Fellow at
+Stanford HAI
+, is trying to change.
+Amsterdam and Tehran: A Tale of Two Elections
+Schaake did not begin her professional career with the intention of becoming Europe’s “most wired politician,” as she has frequently been dubbed by the press. In many ways, her step into politics came as something of a surprise, albeit a pleasant one.
+“I've always been very interested in public service and trying to improve society and the lives of others, but I ran not expecting at all that I would actually get elected,” Schaake confesses.
+As a candidate on the 2008 ticket for the Democrats 66 (D66) political party of the Netherlands, Schaake saw herself as someone who could help move the party’s campaign forward, but not as a serious contender in the open party election system. But when her party performed exceptionally well, at the age of 30, Schaake landed in the third position of a 30-person list vying to fill the 25 open seats available for representatives from all political parties in the Netherlands. Having taken a top spot among a field of hundreds of candidates, she found herself on her way to being a Member of the European Parliament (MEP).
+Marietje Schaake participates in a panel on human rights and communication technologies as a member of the European Parliament in April 2012.
+Alberto Novi, Flikr
+In 2009, world events collided with Schaake’s position as a newly-seated MEP. While the democratic elections in the EU were unfolding without incident, 3,000 miles away in Iran, a very different story was unfolding. Following the re-election of Mahmoud Ahmadinejad to a second term as Iran’s president, allegations of fraud and vote tampering were immediately voiced by supporters of former prime minister Mir-Hossein Mousavi, the leading candidate opposing Ahmadinejad. The protests that followed quickly morphed into the Green Movement, one of the largest sustained protest movements in Iran’s history after the Iranian Revolution of 1978 and until the protests against the death of
+Mahsa Amini
+began in September 2022.
+With the protests came an increased wave of state violence against the demonstrators. While repression and intimidation are nothing new to autocratic regimes, in 2009 the proliferation of cell phones in the hands of an increasingly digitally connected population allowed citizens to document human rights abuses firsthand and beam the evidence directly from the streets of Tehran to the rest of the world in real-time.
+As more and more footage poured in from the situation on the ground, Schaake, with a pre-politics background in human rights and a specific interest in civil rights, took up the case of the Green Movement as one of her first major issues in the European Parliament. She was appointed spokesperson on Iran for her political group.
+Marietje Schaake [second from left] alongside her colleauges from the European Parliament during a press conference on universal human rights in 2010.
+Alberto Novi, Flikr
+The Best of Tech and the Worst of Tech
+But the more Schaake learned, the clearer it became that the Iranian were not the only ones using technology to stay informed about the protests. Meeting with ights defenders who had escaped from Iran to Eastern Turkey, Schaake was told anecdote after anecdote about how the Islamic Republic’s authorities were using tech to surveil, track, and censor dissenting opinions.
+Investigations indicated that they were utilizing a technique referred to then as “deep packet inspection,” a system which allows the controller of a communications network to read and block information from going through, alter communications, and collect data about specific individuals. What was more, journalists revealed that many of the systems such regimes were using to perform this type of surveillance had been bought from, and were serviced by,
+Western companies
 .
-More News Topics
-Machine Learning
+For Schaake, this revelation was a turning point of her focus as a politician and the beginning of her journey into the realm of cyber policy and tech regulation.
+“On the one hand, we were sharing statements urging to respect the human rights of the demonstrators. And then it turned out that European companies were the ones selling this monitoring equipment to the Iranian regime. It became immediately clear to me that if technology was to play a role in enhancing human rights and democracy, we couldn’t simply trust the market to make it so; we needed to have rules,” Schaake explained.
+We have to have a line in the sand and a limit to the use of this technology. It’s extremely important, because this is proliferating not only to governments, but also to non-state actors.
+Marietje Schaake
+International Policy Director at the Cyber Policy Center
+The Transatlantic Divide
+But who writes the rules? When it comes to tech regulation, there is longstanding unease between the private and public sectors, and a different approach between the East and West shores of the Atlantic. In general, EU member countries favor oversight of the technology sector and have supported legislation like the
+General Data Protection Regulation (GDPR)
+and
+Digital Services Act
+to protect user privacy and digital human rights. On the other hand, major tech companies — many of them based in North America — favor the doctrine of self-regulation and frequently cite claims to intellectual property or widely-defined protections such as Section 230 as a justification for keeping government oversight at arm’s length. Efforts by governing bodies like the European Union to legislate privacy and transparency requirements are with raised hackles
+It’s a feeling Schaake has encountered many times in her work. “When you talk to companies in Silicon Valley, they make it sound as if Europeans are after them and that these regulations are weapons meant to punish them,” she says.
+But the need to place checks on those with power is rooted in history, not histrionics, says Schaake. Memories of living under the eye of surveillance states such as the Soviet Union and East Germany still are fresh on many European’s minds. The drive to protect privacy is as much about keeping the government in check as it is about reining in the outsized influence and power of private technology companies, Schaake asserts.
+Big Brother Is Watching
+In the last few years, the momentum has begun to shift.
+In 2020, a joint reporting effort by The Guardian, The Washington Post, Le Monde, Proceso, and over 80 journalists at a dozen additional news outlets worked in partnership with Amnesty International and Forbidden Stories to publish the
+Pegasus Project
+, a detailed report showing that spyware from the private company NSO Group was used to target, track, and retaliate against tens of thousands journalists, activists, civil rights leaders, and even against prominent politicians around the world.
+This type of surveillance has innovated quickly beyond the network monitoring undertaken by regimes like Iran in the 2000s, and taps into the most personal details of an individual’s device, data, and communications. In the absence of widespread regulation, companies like NSO Group have been able to develop commercial products with capabilities as sophisticated as state intelligence bureaus. In many cases, “no-click” infections are now possible, meaning a device can be targeted and have the spyware installed without the user ever knowing or having any suspicions that they have become a victim of covert surveillance.
+Marietje Schaake at the 2023 Summit for Democracy with Neal Mohan, CEO of YouTube; John Scott-Railton, Senior Researcher at Citizen Lab; Avril Haines, U.S. Director of National Intelligence; and Alejandro Mayorkas, U.S. Secretary of Homeland Security.
+U.S. Department of State
+“If we were to create a spectrum of harmful technologies, spyware could easily take the top position,” said Schaake, speaking as the moderator of a panel on “Countering the Misuse of Technology and the Rise of Digital Authoritarianism” at the
+2023 Summit for Democracy
+co-hosted by U.S. President Joe Biden alongside the governments of Costa Rica, the Netherlands, Republic of Korea, and Republic of Zambia.
+Revelations like those of the Pegasus Project have helped spur what Schaake believes is long-overdue action from the United States on regulating this sector of the tech world. On March 27, 2023, President Biden signed an
+executive order
+prohibiting the operational use of commercial spyware products by the United States government. It is the first time such an action has been formally taken in Washington.
+For Schaake, the order is a “fantastic first step,” but she also cautions that there is still much more that needs to be done. The use of spyware made by the government is not limited by Biden's executive order, and neither is the use by individuals who can get their hands on these tools.
+“The repression doesn't only happen in non-democratic countries. Unfortunately we also see governments of democracies using these tools to go after judges, journalists, opposition figures.”
+—
+@MarietjeSchaake
+on commercial spyware
+#SummitForDemocracy
+pic.twitter.com/qVklZY3fae
+— Andreas Sandre (@andreas212nyc)
+March 30, 2023
+Human Rights vs. National Security
+One of Schaake’s main concerns is the potential for governmental overreach in the pursuit of curtailing the influence of private companies.
+Schaake explains, “What's interesting is that while the motivation in Europe for this kind of regulation is very much anchored in fundamental rights, in the U.S., what typically moves the needle is a call to national security, or concern for China.”
+It is important to stay vigilant about how national security can become a justification for curtailing civil liberties. Writing for the
+Financial Times
+, Schaake elaborated on the potential conflict of interest the government has in regulating tech more rigorously:
+“The U.S. government is right to regulate technology companies. But the proposed measures, devised through the prism of national security policy, must also pass the democracy test. After 9/11, the obsession with national security led to warrantless wiretapping and mass data collection. I back moves to curb the outsized power of technology firms large and small. But government power must not be abused.”
+While Schaake hopes well-established democracies will do more to lead by example, she also acknowledges that the political will to actually step up to do so is often lacking. In principle, countries rooted in the rule of law and the principles of human rights decry the use of surveillance technology beyond their own borders. But in practice, these same governments are also sometimes
+customers
+of the surveillance industrial complex.
+It’s up to us to guarantee the upsides of technology and limit its downsides. That’s how we are going to best serve our democracy in this moment.
+Marietje Schaake
+International Policy Director at the Cyber Policy Center
+Schaake has been trying to make that disparity an impossible needle for nations to keep threading. For over a decade, she has called for an end to the surveillance industry and has worked on developing
+export controls
+rules for the sale of surveillance technology from Europe to other parts of the world. But while these measures make it harder for non-democratic regimes to purchase these products from the West, the legislation is still limited in its ability to keep European and Western nations from importing spyware systems like Pegasus back into the West. And for as long as that reality remains, it undermines the credibility of the EU and West as a whole, says Schaake.
+Speaking at the 2023 Summit for Democracy, Schaake urged policymakers to keep the bigger picture in mind when it comes to the risks of unaccountable, ungoverned spyware industries. “We have to have a line in the sand and a limit to the use of this technology. It’s extremely important, because this is proliferating not only to governments, but also to non-state actors. This is not the world we want to live in.”
+Building Momentum for the Future
+Drawing those lines in the sands is crucial not just for the immediate safety and protection of individuals who have been targeted with spyware but applies to other harms of technology vis-a-vis the long-term health of democracy.
+“The narrative that technology is helping people's democratic rights, or access to information, or free speech has been oversold, whereas the need to actually ensure that democratic principles govern technology companies has been underdeveloped,” Schaake argues.
+While no longer an active politician, Schaake has not slowed her pace in raising awareness and contributing her expertise to policymakers trying to find ways of threading the digital needle on tech regulation. Working at the Cyber Policy Center at the Freeman Spogli Institute for International Studies (FSI), Schaake has been able to combine her experiences in European politics with her academic work in the United States against the backdrop of Silicon Valley, the home-base for many of the world’s leading technology companies and executives.
+Though now half a globe away from the European Parliament, Schaake’s original motivations to improve society and people’s lives have not dimmed.
+Though no longer working in government, Schaake, seen here at a conference on regulating Big Tech hosted by Stanford's Human-Centered Intelligence (HAI), continues to research and advocate for better regulation of technology industries.
+Midori Yoshimura
+“It’s up to us to guarantee the upsides of technology and limit its downsides. That’s how we are going to best serve our democracy in this moment,” she says.
+Schaake is clear-eyed about the hurdles still ahead on the road to meaningful legislation about tech transparency and human rights in digital spaces. With a highly partisan Congress in the United States and other issues like the war in Ukraine and concerns over China taking center stage, it will take time and effort to build a critical mass of political will to tackle these issues. But Biden’s executive order and the discussion of issues like digital authoritarianism at the Summit for Democracy also give Schaake hope that progress can be made.
+“The bad news is we're not there yet. The good news is there's a lot of momentum for positive change and improvement, and I feel like people are beginning to understand how much it is needed.”
+And for anyone ready to jump into the fray and make an impact, Schaake adds a standing invitation: “I’m always happy to grab a coffee and chat. Let’s talk!”
+The complete recording of
+"
+Countering the Misuse of Technology and the Rise of Digital Authoritarianism,"
+the panel Marietje Schaake moderated at the 2023 Summit for Democracy, is available below.
+Read More
+Commentary
+Where the New National Cybersecurity Strategy Differs From Past Practice
+If there was once a time when it was reasonable to expect end users (people who are not technical wizards) to manage their own cybersecurity, that time has long since passed.
+Where the New National Cybersecurity Strategy Differs From Past Practice
+Blogs
+Policy Impact Spotlight: Rose Gottemoeller and Negotiations for a Safer World
+From a missed phone call in Moscow to becoming the lead U.S. negotiator of the New START Treaty, scholars like Rose Gottemoeller demonstrate the importance of collaboration between scholars in academic institutions and policymakers in government.
+Policy Impact Spotlight: Rose Gottemoeller and Negotiations for a Safer World
+News
+NATO Parliamentary Delegation Joins FSI Scholars for Discussion on Ukraine and Russia
+FSI Director Michael McFaul, Kathryn Stoner, Francis Fukuyama, Scott Sagan, Anna Grzymala-Busse, and Marshall Burke answered questions from the parliamentarians on the conflict and its implications for the future of Ukraine, Russia, and the global community.
+NATO Parliamentary Delegation Joins FSI Scholars for Discussion on Ukraine and Russia
+All FSI News
+Our Address
+Encina Hall
+616 Jane Stanford Way
+Stanford University
+Stanford, CA 94305-6055
 Navigate
-Welcome
-Values
+Research
+Education
+Policy
+People
+Centers
 News
 Events
-Careers
-Participate
-Get Involved
-Grant Programs
-Corporate Programs
-Learn more about giving to HAI
-Contact Us
-Follow us
-https://twitter.com/StanfordHAI
-https://www.facebook.com/StanfordHAI
-https://www.youtube.com/channel/UChugFTK0KyrES9terTid8vA
-https://www.linkedin.com/company/stanfordhai
-https://www.instagram.com/stanfordhai
-Newsletter Sign Up
-Don’t miss out. Get Stanford HAI updates delivered directly to your inbox.
-Subscribe
-Stanford
-University
+About
+Follow Us
+General inquiries
+650-723-4581
+Mail
+Twitter
+Facebook
+Youtube
+Instagram
+LinkedIn
+Support Us
+Learn more about how your support makes a difference or make a gift now
+Make a gift
+Top
+Footer Stanford Menu
 Stanford Home
-(link is external)
 Maps & Directions
-(link is external)
 Search Stanford
-(link is external)
 Emergency Info
-(link is external)
+Footer Terms Menu
 Terms of Use
-(link is external)
 Privacy
-(link is external)
 Copyright
-(link is external)
 Trademarks
-(link is external)
 Non-Discrimination
-(link is external)
 Accessibility
-(link is external)
-© Stanford University.
-Stanford, California 94305.
+Copyright Complaints
+©
+Stanford University
+,
+Stanford
+,
+California
+94305
+.

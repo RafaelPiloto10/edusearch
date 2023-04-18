@@ -1,149 +1,142 @@
-https://hai.stanford.edu/news/building-precise-assistive-feeding-robot-can-handle-any-meal
-Building a Precise Assistive-Feeding Robot That Can Handle Any Meal
-Skip to main content
-Skip to secondary navigation
-Stanford University
-(link is external)
-Search this site
-Submit Search
-About
-People
-Values
-Corporate Programs
-Get Involved
-Centers
-Center for Research on Foundation Models
-Center for the Study of Language and Information
-Digital Economy Lab
-RegLab
-Initiatives
-Partners
-Research
-Research Focus Areas
-Fellowship Programs
-Grant Programs
-AI Index 2023
-Research Publications
-Student Affinity Groups
+https://news.stanford.edu/section/social-sciences/
+Social Sciences Archives | Stanford News
+Skip to content
+News
+Menu
+Search form
+Search term
+Home
+Find Stories
+For Journalists
+Contact
+Social Sciences
+News articles classified as Social Sciences
+Freeman Spogli Institute for International Studies —
+April 17, 2023
+Marietje Schaake on taming underregulated tech
+A decade of experience in the European Parliament has given Marietje Schaake a unique perspective on the threat technology poses to democracy and human rights.
+Stanford Graduate School of Business —
+April 14, 2023
+Ten questions to ask before a romantic merger
+The most important career decision you’ll make is about whom to marry and what kind of relationship you will have, say Myra Strober and Abby Davisson.
+April 13, 2023
+The 2020 election saw fewer people clicking on misinformation websites, Stanford study finds
+Stanford scholars find a smaller percentage of Americans visited unreliable websites in the run-up to the 2020 U.S. election than in 2016 – which suggests mitigation and education efforts to identify misinformation are working.
+Stanford Graduate School of Business —
+April 11, 2023
+When markets and politics collide, innovation may lose out
+Antitrust policies should look beyond consumer welfare and also consider how mergers could affect investments and future competition, Stanford GSB faculty argue.
+Stanford Graduate School of Business —
+April 3, 2023
+How savvy shoppers undermined India’s great cash swap
+Consumers used retail transactions to keep an estimated $1.5 billion out of the country’s tax system.
+Stanford Graduate School of Business —
+March 28, 2023
+Statement of purpose
+The d.school’s Charlotte Burgess-Auburn on the power of a personal manifesto: “If you’re not living life according to your own values, you’re most likely living them according to someone else’s.”
+Stanford Graduate School of Business —
+March 27, 2023
+Why do companies cook the books? Look to the bean counters.
+Paying corporate accountants more removes incentives for financial misreporting.
+Stanford Graduate School of Education —
+March 24, 2023
+At a Stanford forum, taking a closer look at controversies over curriculum
+Education scholars examined recent conflicts over what students are taught in public schools.
+Stanford Graduate School of Business —
+March 21, 2023
+Many banks face the risks that brought down Silicon Valley Bank
+A new analysis suggests $2.2 trillion in losses and nervous customers could spark more bank runs.
+Stanford Graduate School of Business —
+March 17, 2023
+A new look at immigrants’ outsize contribution to innovation in the U.S.
+A new study finds foreign-born inventors generate a disproportionate share of patents and make their U.S.-born collaborators more productive.
+« Older stories
+Sections
+In the Spotlight
+Arts & Creativity
+Athletics
+Awards
+Business
+Campus Life
 Education
-Stanford Affiliates
-External Audiences
-Courses
-Policy
-Policy Publications
-National AI Research Resource
-Congressional Boot Camp on AI
-Tech Ethics & Policy Summer Fellowships
-AI Audit Challenge
-News
-Blog
-Announcements
-HAI In the News
-Subscribe to HAI Newsletter
-Events
-Upcoming Events
-Past Events
-Weekly Seminars
-Your browser does not support JavaScript! Please enable JavaScript in order to experience this site.
-Page Content
-Automation and Robotics
-Building a Precise Assistive-Feeding Robot That Can Handle Any Meal
-Stanford researchers improve the skewering, scooping, and bite transfer steps.
-Apr 10, 2023
-|
-Katharine Miller
-https://twitter.com/StanfordHAI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
-https://www.facebook.com/StanfordHAI/
-https://www.youtube.com/channel/UChugFTK0KyrES9terTid8vA
-https://www.linkedin.com/company/stanfordhai
-https://www.instagram.com/stanfordhai/?hl=en
-Image
-Eating a meal involves multiple precise movements to bring food from plate to mouth.
-We grasp a fork or spoon to skewer or scoop up a variety of differently shaped and textured food items without breaking them apart or pushing them off our plate. We then carry the food toward us without letting it drop, insert it into our mouths at a comfortable angle, bite it, and gently withdraw the utensil with sufficient force to leave the food behind. And we repeat that series of actions until our plates are clear – three times a day.
-For people with spinal cord injuries or other types of motor impairments, performing this series of movements without assistance can be nigh on impossible, meaning they must rely on caregivers to feed them. This reduces individuals’ autonomy while also contributing to caregiver burnout, says Jennifer Grannen, graduate student in computer science at Stanford University.
-One alternative: robots that can help people with disabilities feed themselves. Although there are already robotic feeding devices on the market, they typically make pre-programmed movements, must be precisely set up for each person and each meal, and bring the food to a position in front of a person’s mouth rather than into it, which can pose problems for people with very limited movement, Grannen says.
-A research team in
-Dorsa Sadigh’s
-ILIAD lab
-, including Grannen and fellow computer science students Priya Sundaresan, Suneel Belkhale, Yilin Wu, and Lorenzo Shaikewitz hopes to make robot-assistive feeding more comfortable for everyone involved. The team has now developed several novel robotic algorithms for autonomously and comfortably accomplishing each step of the feeding process for a variety of food types. One algorithm combines
-computer vision and haptics
-to evaluate the angle and speed at which to insert a fork into a food item; another uses
-a second robotic arm to push food onto a spoon
-; and a third
-delivers food into a person’s mouth
-in a way that feels natural and comfortable.
-“The hope is that by making progress in this domain, people who rely on caregiver assistance can eventually have a more independent lifestyle,” Sundaresan says.
-Visual and Haptic Skewering
-Food items come in a range of shapes and sizes. They also vary in their fragility or robustness. Some (such as tofu) break into pieces when skewered too firmly; others that are harder (such as raw carrots) require a firm skewering motion.
-To successfully pick up diverse items, the team fitted a robot arm with a camera to provide visual feedback and a force sensor to provide haptic feedback. In the training phase, they offered the robot a variety of fare including foods that look the same but have differing levels of fragility (e.g., raw versus cooked butternut squash) and foods that feel soft to the touch but are unexpectedly firm when skewered (e.g., raw broccoli).
-To maximize successful pickups with minimal breakage, the visual system first homes in on a food item and brings the fork in contact with it at an appropriate angle using a method derived from prior research. Next, the fork gently probes the food to determine (using the force sensor) if it is fragile or robust. At the same time, the camera provides visual feedback about how the food responds to the probe. Having made its determination of fragility/robustness using both visual and tactile cues, the robot chooses between – and instantaneously acts on – one of two skewering strategies: a faster more vertical movement for robust items, and a gentler, angled motion for fragile items.
-The work is the first to combine vision and haptics to skewer a variety of foods – and to do so in one continuous interaction, Sundaresan says. In experiments, the system outperformed approaches that don’t use haptics, and also successfully retrieved ambiguous foods like raw broccoli and both raw and cooked butternut squash. “The system relies on vision if the haptics are ambiguous, and haptics if the visuals are ambiguous,” Sundaresan says. Nevertheless, some items evaded the robot’s fork. “Thin items like snow peas or salad leaves are super difficult,” she says.
-She appreciates the way the robot pokes its food just as people do. “Humans also get both visual and tactile feedback and then use that to inform how to insert a fork,” she says. In that sense, this work marks one step toward designing assistive-feeding robots that can behave in ways that feel familiar and comfortable to use.
-Scooping with a Push
-Existing approaches to assistive feeding often require changing utensils to deal with different types of food. “You want a system that can acquire a lot of different foods with a single spoon rather than swapping out what tool you’re using,” Grannen says. But some foods, like peas, roll away from a spoon while others, like jello or tofu, break apart.
-Grannen and her colleagues realized that people know how to solve this problem: They use a second arm holding a fork or other tool to push their peas onto a spoon. So, the team set up a bimanual robot with a spoon in one hand and a curved pusher in the other. And they trained it to pick up a variety of foods.
-As the two utensils move toward each other on either side of a food item, a computer vision system classifies the item as robust or fragile and learns to notice when the item is close to breaking. At that point, the utensils stop moving toward one another and start scooping upward, with the pusher following and rotating toward the spoon to keep the food in place.
-This is the first work to use two robotic arms for food acquisition, Grannen says. She’s also interested in exploring other bimanual feeding tasks such as cutting meat, which involves not only planning how to cut a large piece of food but also how to hold it in place while doing a sawing motion. Soup, too, is an interesting challenge, she says. “How do you keep the spoon from spilling, and how do you tilt the bowl to retrieve the last few drops?”
-Bite Transfer
-Once food is on a fork or spoon, the robot arm needs to deliver it to a person’s mouth in a way that feels natural and comfortable, Belkhale says. Until now, most robots simply brought food to just in front of a person’s mouth, requiring them to lean forward or crane their necks to retrieve the food from the spoon or fork. But that’s a difficult movement for people who are completely immobile from the neck down or for people with other types of mobility challenges, he says.
-To solve that problem, the Stanford team developed an integrated robotic system that brings food all the way into a person’s mouth, stops just after the food enters the mouth, senses when the person takes a bite, and then removes the utensil.
-The system includes a novel piece of hardware that functions like a wrist joint, making the robot’s movements more human-like and comfortable for people, Belkhale says. In addition, it relies on computer vision to detect food on the utensil; to identify key facial features as the food approaches the mouth; and to recognize when the food has gone past the plane of the face and into the mouth.
-The system also uses a force sensor that has been designed to make sure the entire process is comfortable for the person being fed. Initially, as the food comes toward the mouth, the force sensor is very reactive to ensure that the robot arm will stop moving when the utensil contacts a person’s lips or tongue. Next, the sensor registers the person taking a bite, which serves as a signal for the robot to begin withdrawing the utensil, at which point the force sensor needs to be less reactive so that the robot arm will exert sufficient force to leave the food in the mouth as the utensil retreats. “This integrated system can switch between different controllers and different levels of reactivity for each step,” Belkhale says.
-Algorithms combine haptics and computer vision to evaluate how to insert a fork into a person's mouth naturally and comfortably.
-AI-Assistive Feeding
-There’s plenty more work to do before an ideal assistive-feeding robot will be deployed in the wild, the researchers say. For example, robots need to do a better job of picking up what Sundaresan calls “adversarial” food groups, such as very fragile or very thin items. There’s also the challenge of cutting large items into bite-sized pieces, or picking up finger foods. Then there’s the question of what’s the best way for people to communicate with the robot about what food they want next. For example, should the users say what they need next, should the robot learn the human’s preferences and intents over time, or should there be some form of shared autonomy?
-A bigger question: Will all of the food acquisition and bite transfer steps eventually occur together in one system? “Right now, we’re still at the stage where we work on each of these steps independently,” Belkhale says. “But eventually, the goal would be to start fitting them together.”
-Read more:
-In-Mouth Robotic Bite Transfer with Visual and Haptic Sensing
-Learning Bimanual Scooping Policies for Food Acquisition
-Learning Visuo-Haptic Skewering Strategies for Robot-Assisted Feeding
-Stanford HAI’s mission is to advance AI research, education, policy and practice to improve the human condition.
-Learn more
+Faculty & Staff
+Humanities
+Law & Policy
+Health & Medicine
+Obituaries
+Science & Technology
+Social Sciences
+Teaching & Students
+University Affairs
+Featured Topics
+Commencement (26)
+Cybersecurity (41)
+Ecology & Environment (378)
+Entrepreneurship (42)
+Health (540)
+Interdisciplinary (119)
+International (366)
+K-12 Education (112)
+Undergraduate (38)
+Browse by year
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+1998
+1997
+Stanford Report
+To receive Stanford news daily,
+subscribe to
+Stanford Report
 .
-More News Topics
-Automation and Robotics
-Navigate
-Welcome
-Values
-News
+For Journalists
+Press Releases
+Media Contacts
+Stanford Experts
+See Also
+Contact Stanford News
+Faculty / Staff Resources
 Events
-Careers
-Participate
-Get Involved
-Grant Programs
-Corporate Programs
-Learn more about giving to HAI
-Contact Us
-Follow us
-https://twitter.com/StanfordHAI
-https://www.facebook.com/StanfordHAI
-https://www.youtube.com/channel/UChugFTK0KyrES9terTid8vA
-https://www.linkedin.com/company/stanfordhai
-https://www.instagram.com/stanfordhai
-Newsletter Sign Up
-Don’t miss out. Get Stanford HAI updates delivered directly to your inbox.
-Subscribe
-Stanford
-University
+Events calendar
+Stanford News is a publication of
+Stanford University Communications
 Stanford Home
-(link is external)
 Maps & Directions
-(link is external)
 Search Stanford
-(link is external)
 Emergency Info
-(link is external)
 Terms of Use
-(link is external)
 Privacy
-(link is external)
 Copyright
-(link is external)
 Trademarks
-(link is external)
 Non-Discrimination
-(link is external)
 Accessibility
-(link is external)
-© Stanford University.
-Stanford, California 94305.
+©
+Stanford University
+.
+Stanford
+,
+California
+94305
+.
