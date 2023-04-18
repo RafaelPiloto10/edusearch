@@ -28,8 +28,8 @@ export default function SearchQuery() {
 
 	useEffect(() => {
 		const getResults = async () => {
-			return new Promise<Result[]>(async (resolve, reject) => {
-				const result = await fetch("http://localhost:8000/search", {
+			return new Promise<Result[]>(async (resolve, _) => {
+				await fetch("http://localhost:8000/search", {
 					method: "POST",
 					headers: {
 						'Accept': 'application/json',
@@ -45,11 +45,10 @@ export default function SearchQuery() {
 					if (r.results) {
 						for (const result of results) {
 							const content = result.content.split("\n");
-							console.log(content);
 							pageResults.push({
 								url: content[0],
 								title: content[1],
-								blurb: content[2],
+								blurb: content.find((e: string) => e.toLowerCase().indexOf(query.toLowerCase()) !== -1),
 							});
 						}
 					}
