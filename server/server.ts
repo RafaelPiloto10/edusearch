@@ -98,7 +98,8 @@ app.post('/search', (req: any, res: any) => {
     results: topTenSearches
   }));
 });
-//async and await is so fun ://
+
+
 async function startServer() {
   await iterateFolderFiles(folderPath, fileSim, filePage, fileHITS).then(({ mh, ph, sh, hh, l }) => {
     mainhashing = mh;
