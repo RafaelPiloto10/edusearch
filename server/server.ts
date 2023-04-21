@@ -99,6 +99,7 @@ app.post('/search', (req: any, res: any) => {
   }));
 });
 
+
 async function startServer() {
   await iterateFolderFiles(folderPath, fileSim, filePage, fileHITS).then(({ mh, ph, sh, hh, l }) => {
     mainhashing = mh;
