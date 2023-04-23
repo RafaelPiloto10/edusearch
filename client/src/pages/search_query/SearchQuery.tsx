@@ -13,10 +13,10 @@ function SearchResult(props: Result) {
 	return (
 		<div className="text-white">
 			<div onClick={() => window.location.replace(props.url)} className="hover:cursor-pointer">
-				<h1 className="text-xl text-blue-500 hover:underline">{props.title}</h1>
+				<h1 className="text-xl text-blue-500 hover:underline text-ellipsis whitespace-nowrap overflow-hidden">{props.title}</h1>
 				<p className="text-sm text-gray-500">{props.url}</p>
 			</div>
-			<p className="text-sm">{props.blurb}</p>
+			<p className="text-sm text-ellipsis whitespace-nowrap overflow-hidden">{props.blurb}</p>
 		</div>
 	);
 }
@@ -25,6 +25,7 @@ export default function SearchQuery() {
 	const [searchParams, _] = useSearchParams();
 	const [results, setResults] = useState<Result[]>([]);
 	const query = searchParams.get("q") || "";
+	const algo = searchParams.get("algo") || "pageRank";
 
 	useEffect(() => {
 		const getResults = async () => {
@@ -37,7 +38,7 @@ export default function SearchQuery() {
 					},
 					body: JSON.stringify({
 						query: query,
-						rankType: "pageRank"
+						rankType: algo,
 					})
 				}).then(r => r.json()).then(r => {
 					const results: any[] = r.results;

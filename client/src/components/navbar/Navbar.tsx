@@ -17,9 +17,9 @@ export function Navbar(props: { defaultQuery: string }) {
 			</div>
 
 			<div className="w-full flex flex-row items-center justify-center">
-				<div className="w-2/3">
+				<div className="w-full">
 					<SearchBar defaultQuery={props.defaultQuery} />
-				</div>
+				</div>	
 			</div>
 		</div>
 	);
