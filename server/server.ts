@@ -8,8 +8,8 @@ const app = express();
 
 const folderPath = '../data';
 const fileSim = '../methods/simrank/simrank.csv';
-const filePage = '../outpagerank.csv';
-const fileHITS = '../outhits.csv';
+const filePage = '../methods/pagerank/pagerank.csv';
+const fileHITS = '../methods/hits/hits.csv';
 
 async function iterateFolderFiles(folderPath: string, fileSim: string, filePage: string, fileHITS: string) {
 	const MainHash: Record<string, string> = {};
